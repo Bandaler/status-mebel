@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/fancybox.css">
+  <link rel="stylesheet" href="./assets/css/splide.min.css">
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header class="other-page">
+    <div class="header-inner">
+      <div class="container">
+        <div class="navigation">
+          <a href="javascript:void(0)" class="logo">
+            <img src="./assets/img/logo.png" alt="logo">
+          </a>
+          <div class="navigation-right">
+            <nav class="top-menu">
+              <ul class="nav-menu">
+                <li>
+                  <a href="index.html">Главная</a>
+                </li>
+                <li>
+                  Наши проекты
+                  <ul class="submenu">
+                    <li>
+                      <a href="project-cat.html">
+                        Комплексные проекты
+                      </a>
+                    </li>
+                    <li>
+                      <a href="project-cat.html">
+                        Кухни
+                      </a>
+                    </li>
+                    <li>
+                      <a href="project-cat.html">
+                        Шкафы
+                      </a>
+                    </li>
+                    <li>
+                      <a href="project-cat.html">
+                        Диваны
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="gallery.html">
+                    Галерея
+                  </a>
+                </li>
+                <li>
+                  <a href="about.html">
+                    О нас
+                  </a>
+                </li>
+                <li>
+                  <a href="news.html">
+                    Новости
+                  </a>
+                </li>
+                <li>
+                  <a href="contacts.html">
+                   Контакты
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <div class="phones">
+              <a href="+79185793077" class="phone-header">
+                +7 (918) 579-30-77
+              </a>
+              <a href="+79628794688" class="phone-header">
+                +7 (962) 879-46-88
+              </a>
+            </div>
+            <button class="close-menu">
+              <img src="./assets/img/close-lg-svgrepo-com.svg" alt="img">
+            </button>
+          </div>
+          <button class="burger">
+            <svg width="35" height="35" viewBox="0 0 800 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M133.333 600H666.667" stroke="#fff" stroke-width="66.6667" stroke-linecap="round" />
+              <path d="M133.333 400H666.667" stroke="#fff" stroke-width="66.6667" stroke-linecap="round" />
+              <path d="M133.333 200H666.667" stroke="#fff" stroke-width="66.6667" stroke-linecap="round" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <nav class="breadcrumbs">
+        <ul class="breadcrumbs-items">
+          <li>
+            <a href="javascript:void(0)">
+              Главная
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">
+              Наши проекты
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">
+              Комплексные проекты
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">
+              Идеальная мебель
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <section class="section detail-product">
+      <div class="container">
+        <div class="detail-product__inner">
+          <div class="detail-product__sliders" data-move-target=".detail-product__info .section-title" data-move-break="1200">
+            <!-- Главный слайдер -->
+            <div id="main-slider" class="splide detail-slider" aria-label="product slider">
+              <div class="splide__track">
+                <ul class="splide__list detail-product__gallery">
+                  <li class="splide__slide">
+                    <a href="./assets/img/dt1.jpeg" data-fancybox="gallery-ideal">
+                      <img src="./assets/img/dt1.jpeg" alt="img">
+                    </a>
+                  </li>
+                  <li class="splide__slide">
+                    <a href="./assets/img/dt2.jpeg" data-fancybox="gallery-ideal">
+                      <img src="./assets/img/dt2.jpeg" alt="img">
+                    </a>
+                  </li>
+                  <li class="splide__slide">
+                    <a href="./assets/img/dt3.jpeg" data-fancybox="gallery-ideal">
+                      <img src="./assets/img/dt3.jpeg" alt="img">
+                    </a>
+                  </li>
+                  <li class="splide__slide">
+                    <a href="./assets/img/dt4.jpeg" data-fancybox="gallery-ideal">
+                      <img src="./assets/img/dt4.jpeg" alt="img">
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Миниатюры -->
+            <div id="thumbnail-slider" class="splide detail-slider-thumbs" aria-label="thumbnail slider">
+              <div class="splide__track">
+                <ul class="splide__list">
+                  <li class="splide__slide"><img src="./assets/img/dt1.jpeg" alt="thumb"></li>
+                  <li class="splide__slide"><img src="./assets/img/dt2.jpeg" alt="thumb"></li>
+                  <li class="splide__slide"><img src="./assets/img/dt3.jpeg" alt="thumb"></li>
+                  <li class="splide__slide"><img src="./assets/img/dt4.jpeg" alt="thumb"></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="detail-product__info">
+            <h1 class="section-title">
+              Идеальная мебель
+            </h1>
+            <div class="section-description">
+              Мы рады представить вам одну из наших последних работ — кухню, которая не только выглядит восхитительно,
+              но и идеально вписывается в общую концепцию интерьера квартиры. Этот проект объединил в себе гармонию
+              стиля и комфорта. Кухонная зона плавно переходит в ТВ-зону, открывая вид на окно и гостиную, создавая
+              ощущение целостного и продуманного пространства<br><br>
+
+              Каждая деталь была выполнена с учетом индивидуальных предпочтений наших заказчиков<br><br>
+
+              Например мы интегрировали современный камин в пространстве ТВ зоны, который стал изюминкой интерьера и
+              добавил уюта. Это не просто кухня, а место, в котором хочется проводить время<br><br>
+
+              И это лишь малая часть, что можно рассказать об этом проекте!
+            </div>
+            <button class="order-btn">
+              Рассчитать стоимость
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="advantages advantages-detail section">
+      <div class="container">
+        <div class="advantages-inner">
+          <ul class="advantages-list">
+            <li>
+              <p>
+                Цена без посредников
+              </p>
+              <span>
+                Вы заказываете мебель напрямую у изготовителя, не переплачивая мебельным салонам и перекупщикам.
+              </span>
+            </li>
+            <li>
+              <p>
+                Дизайн и индивидуальность
+              </p>
+              <span>
+                Вы увидите будущий интерьер в деталях (цвета, текстуры, фурнитура) до того, как мы приступим к
+                изготовлению.
+              </span>
+            </li>
+            <li>
+              <p>
+                Экологичность материалов
+              </p>
+              <span>
+                Работаем только с сертифицированным ЛДСП и МДФ
+              </span>
+            </li>
+            <li>
+              <p>
+                Гарантия качества
+              </p>
+              <span>
+                Мы уверены в своей работе, поэтому предоставляем официальную гарантию на все изделия и фурнитуру.
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="section product-review">
+      <div class="container">
+        <div class="product-review__inner">
+          <div class="product-review__info">
+            <div class="product-review__title">
+              Видео обзор проекта
+            </div>
+            <div class="product-review__description" data-move-target=".product-review__video" data-move-break="992">
+              Посмотрите проект в реальной квартире, чтобы увидеть детали, которые скрывают фото: как шкафы открываются,
+              как двигаются ящики с фурнитурой Blum, какие функциональные решения были приняты
+            </div>
+          </div>
+          <div class="product-review__video">
+            <video src="./assets/img/rew.mp4" controls width="640" poster="./assets/img/ga1.webp">
+              Ваш браузер не поддерживает видео тег.
+            </video>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section other-projects">
+      <div class="container">
+        <h2>
+          Другие проекты
+        </h2>
+        <ul class="other-projects__list">
+          <li>
+            <a href="detail-product.html">
+              <img src="./assets/img/gallery/gal1.webp" alt="name">
+              <div class="other-projects__text">
+                Подробнее о проекте
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="detail-product.html">
+              <img src="./assets/img/gallery/gal2.webp" alt="name">
+              <div class="other-projects__text">
+                Подробнее о проекте
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="detail-product.html">
+              <img src="./assets/img/gallery/gal11.png" alt="name">
+              <div class="other-projects__text">
+                Подробнее о проекте
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-top">
+          <a href="javascript:void(0)" class="footer-logo">
+            <img src="./assets/img/logo.png" alt="logo">
+          </a>
+          <button class="order-btn">
+            Рассчитать стоимость
+          </button>
+        </div>
+        <div class="footer-middle">
+          <ul class="footer-menu">
+            <li>
+              <a href="javscript:void(0)">
+                Наши проекты
+              </a>
+              <ul class="submenu">
+                <li>
+                  <a href="javascript:void(0)">
+                    Комплексные проекты
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)">
+                    Кухни
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)">
+                    Шкафы
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)">
+                    Диваны
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="javscript:void(0)">
+                Галерея
+              </a>
+            </li>
+            <li>
+              <a href="javscript:void(0)">
+                О нас
+              </a>
+            </li>
+            <li>
+              <a href="javscript:void(0)">
+                Видео отзывы
+              </a>
+            </li>
+          </ul>
+          <div class="footer-contacts">
+            <a href="tel:+79185793077" class="footer-link">
+              +7 (918) 579-30-77
+            </a>
+            <a href="tel:+79628794688" class="footer-link">
+              +7 (962) 879-46-88
+            </a>
+            <a href="mailto:+79628794688" class="footer-link">
+              +7 (962) 879-46-88
+            </a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="requzites">
+            ИНН:<br>
+            ОГРН
+          </div>
+          <div class="footer-copy">
+            copyright 2026
+          </div>
+          <a href="javascript:void(0)" class="footer-policy">
+            Политика конфиденциальности
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="./assets/js/fancybox.umd.js"></script>
+  <script src="./assets/js/splide.min.js"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
